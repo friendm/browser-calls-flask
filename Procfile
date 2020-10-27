@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn browser_calls_app:app
