@@ -7,6 +7,7 @@ Flask-Script==2.0.5
 Flask-SQLAlchemy==2.1
 Flask-WTF==0.14
 Flask-Bootstrap==3.3.5.7
+werkzeug==0.16.0
 
 # External libraries
 SQLAlchemy==1.0.11
