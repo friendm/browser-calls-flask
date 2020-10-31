@@ -13,7 +13,7 @@ def root():
     return render_template('home.html', form=form)
 
 
-@app.route('/tickets', methods=['GET', 'POST'])
+@app.route('/tickets', methods=['GET'])
 def new_ticket():
     success_message = "Your ticket was submitted! An agent will call you soon."
     form = SupportTicketForm()
